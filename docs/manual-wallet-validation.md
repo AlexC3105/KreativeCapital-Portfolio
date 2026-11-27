@@ -1,6 +1,6 @@
 # Manual wallet-extension validation
 
-**Status: not yet performed.** Automated tests use test-only EIP-1193/EIP-6963 wallets, so
+**Status: deferred by the project owner and not executed.** Automated tests use test-only EIP-1193/EIP-6963 wallets, so
 compatibility with any real wallet extension (for example MetaMask) **has not been verified**.
 This is the owner's acceptance procedure for that item. It runs on its own local chain and
 ports, so it does not touch any other local session.

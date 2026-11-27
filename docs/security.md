@@ -56,9 +56,9 @@
 |---|---|---|
 | Contract tests (113, including a randomized reference model) | Passing | Tests show the specified behaviour. They cannot prove the absence of defects |
 | Slither 0.11.4 static analysis | 7 results, all classified, with no high-impact findings, no confirmed defects and no suppressions | Not an independent audit |
-| Frontend unit/UI (107), integration (23), browser (36) | Passing | Real wallet extensions not tested (see [manual-wallet-validation.md](manual-wallet-validation.md)) |
+| Frontend unit/UI (107), integration (23), browser (36) | Passing | Test-only wallets. Real wallet-extension testing was deferred by the owner and has not been executed (see [manual-wallet-validation.md](manual-wallet-validation.md)) |
 | axe-core accessibility scan (12 states) | 0 violations | Automated checks only. No claim of full WCAG conformance |
-| Independent AI-assisted technical review | Recommendation: suitable after bounded corrections (applied, targeted re-review pending) | Not a professional audit |
+| Independent AI-assisted technical reviews (fresh sessions) | Final narrow review: suitable to proceed, after the earlier corrections were applied | Not a professional audit. The coordinating session also implemented the changes. |
 | Repository policy scan (12 scanner regression tests) | Passing | Pattern-based guard rail. Not a complete secret scanner |
 | Independent secret scan (TruffleHog 3.100.1, provenance verified) | Allowlist-only export (99 files): 0 verified findings and 1 unverified finding. That finding is a synthetic placeholder URL with dummy credentials in a test that checks the deploy tooling refuses such URLs (a false positive). | Files only. Credential verification and update checks disabled. The Git history of the public copy must still be scanned. |
 | Hosted CI | **Not yet executed** | The workflow has only been run locally |
@@ -75,10 +75,11 @@ The contracts' production dependencies have **0** advisories. The only advisorie
 shipped frontend bundle are two **moderate** react-router advisories, neither reachable in this
 app.
 
-**Status:** an independent technical review supports bounded acceptance of all 13 advisories
-within this local educational scope. **Final owner approval is pending.** None is fixed, and
-none is finally accepted. Each acceptance holds only while its reassessment conditions remain
-untriggered.
+**Status:** the project owner has **accepted** all 13 advisories for bounded educational use,
+following an independent technical review that supported bounded acceptance within this local
+scope. **None is remediated.** The acceptance holds only while the exposure assumptions in the
+table remain true and no reassessment trigger occurs. It does not extend to commercial
+deployment, production systems or real financial assets.
 
 | Advisory | Package (path) | Exposure | Reachability here | Proposed disposition | Reassess when |
 |---|---|---|---|---|---|

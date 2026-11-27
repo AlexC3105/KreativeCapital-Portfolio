@@ -13,7 +13,7 @@ There are two ways to run the demo:
    and C in headless Chrome with test-only wallets and saves screenshots.
 2. **Manual, in your own browser.** This needs a wallet extension installed in a **disposable
    browser profile**. Follow [manual-wallet-validation.md](manual-wallet-validation.md). Real
-   wallet-extension compatibility has not been verified yet.
+   wallet-extension compatibility has not been verified (that testing was deferred).
 
 ## Setup
 

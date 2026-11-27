@@ -168,13 +168,20 @@ Details are in [docs/testing.md](docs/testing.md). The GitHub Actions workflow i
   are not an audit.
 - **Local development chain only.** The deployment manifest is served by the Vite dev/preview
   servers, so there is no static hosting.
-- **Real wallet extensions not yet verified.** Automated tests use test-only wallets.
+- **Real wallet extensions not tested.** Manual wallet-extension testing was deferred by the
+  project owner and has not been executed. Automated tests use test-only wallets, which do not
+  establish compatibility with real wallet extensions. The procedure is in
+  [docs/manual-wallet-validation.md](docs/manual-wallet-validation.md).
+- **Source code only.** This repository is distributed as source code for local execution.
+  There is no hosted application, demo site or public blockchain deployment.
 - **Accessibility.** Automated checks only. There was no manual screen-reader testing, and
   full WCAG conformance is not claimed.
 - **Dependencies.** `npm audit` reports advisories in the development tooling and two moderate
   react-router advisories that are not reachable in this app. None is fixed. An independent
-  review supports bounded acceptance within this local educational scope. Final owner approval
-  is pending. See [docs/security.md](docs/security.md).
+  review supported bounded acceptance, and the project owner has accepted these advisories for
+  bounded educational use. They are not remediated. The acceptance depends on the documented
+  exposure assumptions and reassessment triggers and does not extend to commercial deployment,
+  production systems or real financial assets. See [docs/security.md](docs/security.md).
 - **Canonical token only.** The contracts assume KreativeToken's exact, standard transfers.
   Fee-on-transfer, rebasing or other non-standard tokens are out of scope.
 - **Solvency guard.** If backing were ever short, all contributions and claims pause until it

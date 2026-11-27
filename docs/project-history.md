@@ -63,10 +63,12 @@ The modernization proceeded in stages:
 ## Current status and limitations
 
 - Educational and unaudited. Local development chain only.
-- Not tested with a real wallet extension yet (see
-  [manual-wallet-validation.md](manual-wallet-validation.md)).
+- Not tested with a real wallet extension. That testing was deferred by the owner and has not
+  been executed (see [manual-wallet-validation.md](manual-wallet-validation.md)).
 - The CI workflow is defined but has not yet run on hosted runners.
-- Dependency advisories are not fixed. The independent review supports bounded acceptance within
-  the local educational scope. Final owner approval is pending (see [security.md](security.md)).
+- Dependency advisories are not fixed. After an independent review supported it, the owner
+  accepted them for bounded educational use only (see [security.md](security.md)).
+- Distributed as source code for local execution. There is no hosted application or public
+  blockchain deployment.
 - The contracts support only the canonical KreativeToken (see
   [financial-model.md](financial-model.md)).
