@@ -1,5 +1,7 @@
 # KreativeCapital
 
+[![CI](https://github.com/AlexC3105/KreativeCapital-Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexC3105/KreativeCapital-Portfolio/actions/workflows/ci.yml)
+
 **KT-denominated crowdfunding on a local Ethereum development chain:**
 - contributions are held in escrow
 - a 1% platform fee applies only when a campaign succeeds
@@ -159,8 +161,9 @@ Measured in local runs on Node 22.23.5 / npm 10.9.9 from a fresh copy:
 | Automated accessibility (axe-core, 12 routes/states) | 0 violations |
 | Slither static analysis | 7 results reviewed, with no high-impact findings or confirmed defects |
 
-Details are in [docs/testing.md](docs/testing.md). The GitHub Actions workflow is defined but
-**has not yet run on hosted runners**.
+The same suites also pass on hosted GitHub Actions runners (ubuntu-24.04): see the
+[first hosted run](https://github.com/AlexC3105/KreativeCapital-Portfolio/actions/runs/46081091196) and the badge above for the latest status. Details are in
+[docs/testing.md](docs/testing.md).
 
 ## Known limitations
 

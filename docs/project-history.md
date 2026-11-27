@@ -65,7 +65,7 @@ The modernization proceeded in stages:
 - Educational and unaudited. Local development chain only.
 - Not tested with a real wallet extension. That testing was deferred by the owner and has not
   been executed (see [manual-wallet-validation.md](manual-wallet-validation.md)).
-- The CI workflow is defined but has not yet run on hosted runners.
+- The CI workflow runs on hosted GitHub Actions runners. Its first hosted run passed all jobs.
 - Dependency advisories are not fixed. After an independent review supported it, the owner
   accepted them for bounded educational use only (see [security.md](security.md)).
 - Distributed as source code for local execution. There is no hosted application or public
