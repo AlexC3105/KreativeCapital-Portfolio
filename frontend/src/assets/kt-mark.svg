@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- KreativeCapital diamond mark: original project artwork (simple geometric shapes), MIT
+       like the rest of the repository. Replaces an earlier image of unrecorded provenance. -->
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9ffff4"/>
+      <stop offset="1" stop-color="#2f7fd8"/>
+    </linearGradient>
+    <linearGradient id="bottom" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a6fd0"/>
+      <stop offset="1" stop-color="#1c3f8f"/>
+    </linearGradient>
+  </defs>
+  <polygon points="256,56 156,250 256,300" fill="url(#top)"/>
+  <polygon points="256,56 356,250 256,300" fill="#3f8ee0"/>
+  <polygon points="156,262 256,312 356,262 256,288" fill="#f5c04a"/>
+  <polygon points="156,282 256,456 256,334" fill="url(#bottom)"/>
+  <polygon points="356,282 256,456 256,334" fill="#16357a"/>
+</svg>

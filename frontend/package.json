@@ -1,0 +1,35 @@
+{
+  "name": "@kreativecapital/frontend",
+  "version": "2.0.0-dev",
+  "private": true,
+  "description": "KreativeCapital React frontend for the canonical KT contracts (local development only; educational, unaudited; not for real transactions).",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:integration": "vitest run --config vitest.integration.config.js",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@fontsource/cinzel": "5.3.0",
+    "ethers": "6.17.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.6",
+    "three": "0.167.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "10.4.2",
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "16.3.3",
+    "@vitejs/plugin-react": "4.7.0",
+    "@vitest/coverage-v8": "4.1.12",
+    "axe-core": "4.14.1",
+    "jsdom": "25.0.1",
+    "vite": "6.4.6",
+    "vitest": "4.1.12"
+  }
+}

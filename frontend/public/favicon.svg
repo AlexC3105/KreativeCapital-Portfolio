@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- KreativeCapital icon: original project artwork (simple geometric shapes), MIT. -->
+  <rect width="64" height="64" rx="12" fill="#2d0d35"/>
+  <polygon points="32,8 18,33 32,39" fill="#71f2e3"/>
+  <polygon points="32,8 46,33 32,39" fill="#3f8ee0"/>
+  <polygon points="18,35 32,42 46,35 32,39" fill="#f5c04a"/>
+  <polygon points="18,38 32,57 32,44" fill="#3a6fd0"/>
+  <polygon points="46,38 32,57 32,44" fill="#16357a"/>
+</svg>

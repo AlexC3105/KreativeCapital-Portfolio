@@ -1,0 +1,32 @@
+{
+  "name": "kreativecapital",
+  "version": "2.0.0-dev",
+  "private": true,
+  "description": "KreativeCapital: Ethereum crowdfunding capstone (UM FinTech Bootcamp, 2024), under modernization. Educational, local development only.",
+  "license": "MIT",
+  "workspaces": [
+    "contracts",
+    "frontend"
+  ],
+  "engines": {
+    "node": "22.23.5",
+    "npm": "10.9.9"
+  },
+  "scripts": {
+    "compile": "npm run compile -w contracts",
+    "test": "npm run compile && npm run test -w contracts && npm run test -w frontend && npm run test:integration -w frontend",
+    "test:contracts": "npm run test -w contracts",
+    "test:frontend": "npm run test -w frontend",
+    "node": "npm run node -w contracts",
+    "deploy:local": "npm run deploy:local -w contracts",
+    "dev": "npm run dev -w frontend",
+    "build": "npm run compile && npm run build -w frontend",
+    "preview": "npm run preview -w frontend",
+    "test:integration": "npm run compile && npm run test:integration -w frontend",
+    "e2e:browser": "node frontend/e2e/browser-check.mjs",
+    "policy": "node scripts/check-repo-policy.mjs",
+    "test:policy": "node --test scripts/test/check-repo-policy.test.mjs",
+    "dev:advance-time": "node contracts/scripts/dev/advance-time.mjs"
+  },
+  "packageManager": "npm@10.9.9"
+}
