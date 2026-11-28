@@ -226,7 +226,7 @@ runs 12 regression tests with synthetic, runtime-assembled values.
 - actions pinned to full commit SHAs.
 
 **Hosted result.** The first hosted run on GitHub Actions (ubuntu-24.04, Node 22.23.5, npm
-10.9.9) passed all four jobs: [run 46081091196](https://github.com/AlexC3105/KreativeCapital-Portfolio/actions/runs/46081091196). Its logs show 113 contract tests (4,000
+10.9.9) passed all four jobs: [run 46081091196](https://github.com/AlexC3105/KreativeCapital/actions/runs/46081091196). Its logs show 113 contract tests (4,000
 randomized operations), 107 frontend tests, 23 integration tests, 36/36 browser checks with 0
 accessibility violations, 0 punctuation hits and 0 external requests, 12 scanner tests, a
 passing policy scan and build, and the unchanged advisory report (30 entries, 13 advisories).

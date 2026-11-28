@@ -61,7 +61,7 @@
 | Independent AI-assisted technical reviews (fresh sessions) | Final narrow review: suitable to proceed, after the earlier corrections were applied | Not a professional audit. The coordinating session also implemented the changes. |
 | Repository policy scan (12 scanner regression tests) | Passing | Pattern-based guard rail. Not a complete secret scanner |
 | Independent secret scan (TruffleHog 3.100.1, provenance verified) | The 101-file publication candidate and its complete Git history, before the push and again on a fresh clone of the GitHub repository: 0 verified findings and 1 unverified finding in each scan. That finding is a synthetic placeholder URL with dummy credentials, in a test that checks the deploy tooling refuses such URLs (a false positive). | Live credential verification and update checks were disabled. The signed checksum and signing-certificate identity were verified, but the Rekor transparency log was not checked. Zero verified findings is not proof that no secrets exist. |
-| Hosted CI (GitHub Actions, ubuntu-24.04) | All four jobs passed on the first hosted run ([run 46081091196](https://github.com/AlexC3105/KreativeCapital-Portfolio/actions/runs/46081091196)) | Automated validation only. Nothing is deployed. |
+| Hosted CI (GitHub Actions, ubuntu-24.04) | All four jobs passed on the first hosted run ([run 46081091196](https://github.com/AlexC3105/KreativeCapital/actions/runs/46081091196)) | Automated validation only. Nothing is deployed. |
 
 ## Residual dependency risk
 

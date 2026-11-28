@@ -1,6 +1,6 @@
 # KreativeCapital
 
-[![CI](https://github.com/AlexC3105/KreativeCapital-Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexC3105/KreativeCapital-Portfolio/actions/workflows/ci.yml)
+[![CI](https://github.com/AlexC3105/KreativeCapital/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexC3105/KreativeCapital/actions/workflows/ci.yml)
 
 **KT-denominated crowdfunding on a local Ethereum development chain:**
 - contributions are held in escrow
@@ -10,6 +10,11 @@
 > **Educational, unaudited project for a local development chain only.** It is not production
 > software, has not been deployed to any public network, and handles no real funds. KT has no
 > value, no redemption rights and no backing.
+
+> **About this repository.** This is the public edition of KreativeCapital, my 2024 University
+> of Miami FinTech Bootcamp capstone, modernized in 2026 with AI assistance. It was published
+> with a fresh Git history. The original 2024 code and the full development history are kept
+> privately.
 
 ![Campaign detail after a confirmed contribution](docs/screenshots/demo-03-contribution-confirmed.png)
 
@@ -162,7 +167,7 @@ Measured in local runs on Node 22.23.5 / npm 10.9.9 from a fresh copy:
 | Slither static analysis | 7 results reviewed, with no high-impact findings or confirmed defects |
 
 The same suites also pass on hosted GitHub Actions runners (ubuntu-24.04): see the
-[first hosted run](https://github.com/AlexC3105/KreativeCapital-Portfolio/actions/runs/46081091196) and the badge above for the latest status. Details are in
+[first hosted run](https://github.com/AlexC3105/KreativeCapital/actions/runs/46081091196) and the badge above for the latest status. Details are in
 [docs/testing.md](docs/testing.md).
 
 ## Known limitations
